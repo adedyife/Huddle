@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300&family=Outfit:wght@200&family=Paytone+One&family=Poppins:wght@700&family=Secular+One&display=swap');
+
+
+@media (max-width:2000px) { 
+html{
+    scroll-behavior:smooth;
+}
+
+    body{
+        font-family:'Open Sans', sans-serif;
+        color: hsl(192, 100%, 9%);
+      
+    }
+
+    #nav-bar{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3em;
+    }
+
+#logo{
+   width: 20%;
+  
+}
+
+button{
+    cursor: pointer;
+}
+#try{
+    background-color: white;
+    border: solid 2px hsl(322, 100%, 66%);
+    font-size: 1em;
+    border-radius: 2em;
+    padding: 1em;
+    transition: all 300ms ease;
+    font-weight: bold;
+    color: hsl(322, 100%, 66%); 
+}
+#try:hover{
+    background-color:hsl(322, 100%, 66%) ;
+    color: white;
+    font-weight: bold;
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+    font-size: 2em;
+}
+#huddle{
+  width: 30%;
+ text-align: center;
+ font-family:'Open Sans', sans-serif;
+}
+
+.buttons{
+    width: fit-content;
+    padding: 1em;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 2em;
+    color: white;
+    border: none;
+}
+
+.buttons:active{
+    background-color: hsl(322, 97%, 50%);
+}
+
+.start{
+ margin-top: 2em;
+ border-radius: 3em;
+ padding: 1% 3% 1% 3%;
+
+}
+
+.shadow{
+    transition: all 300ms ease;
+    width: max-content;
+   
+
+}
+
+ .shadow:hover{
+     box-shadow: 2px 2px 10px rgb(59, 58, 58);  
+ }
+ 
+ #show{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #screen-illu{
+   width: 60%;
+ }
+
+ .split{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+ }
+
+ .split img{
+    margin: 5em;
+    width: 40%;
+ }
+
+ .stat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background: url("images/bg-section-top-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    line-height: 0.1em;
+ }
+
+.number{
+    display: flex;
+}
+
+ .grow{
+    background: hsl(207, 100%, 98%);
+ }
+ .bg-footer{
+    background: url("images/bg-section-bottom-desktop-1.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+ }
+
+ h2{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+ }
+
+ .deet-img{
+    width: 100%;
+   
+ }
+
+ .deet{
+    margin:10% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+ }
+
+.deet-img{
+    width: 2em;
+    align-self: flex-start;
+    margin-bottom: -2em;
+}
+
+
+.disc{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;  
+}
+
+.user-img{
+    width: 150%;
+}
+
+.conclusion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("images/bg-footer-top-desktop.svg"), url("images/bg-section-bottom-desktop-2.svg");
+    background-repeat:no-repeat;
+    background-position: bottom, top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#bottom{
+  
+    display: flex;
+    flex-direction: row;
+    color: rgb(199, 208, 26);  
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    color: black;
+    font-weight: bold;  
+}
+
+.footer-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: hsl(192, 100%, 9%);
+    color: aliceblue;
+}
+.flow{
+        background: url("images/bg-section-top-desktop-2.svg"), url("images/bg-section-bottom-desktop-1.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom, top;
+        height: 100vh;
+       
+}
+
+.bg-light{
+    background-color: hsl(207, 100%, 98%);
+   
+}
+
+.huddle-class{
+    color: white;
+    line-height: 0.1em;
+}
+
+h4{
+    color: white;
+    font-size: 2em;
+}
+.Subscribe{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 1em;
+   
+}
+.sub-button{
+    padding: 1em 3em 1em 3em;
+    align-self: flex-end;
+}
+.text{
+    border: none;
+    border-radius: 0.5em;
+    height: 2em;
+    width: 100%;
+    margin: 1em;
+}
+.contact-info{
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   align-self: flex-start;
+   
+   
+}
+
+.contact-info img {
+    padding: 1em;
+
+}
+.footer-logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+   color: aliceblue;
+  
+   width:100%
+}
+
+.socials span{
+    padding: 1em;
+}
+
+ion-icon{
+  color: rgb(245, 250, 255);
+    font-size: 1em;
+    align-self: flex-start;
+    justify-self: flex-start;
+  cursor: pointer;
+    transition: all 300ms ease-in;
+}
+
+ion-icon:hover{
+ color: aqua;
+
+}
+}
+
+
+@media (max-width:800px){
+
+    #logo{
+        width: 40%;
+    }
+
+    h1{
+        font-size: 1.3em;
+    }
+
+}
+
+
+
+@media (max-width:500px) {
+
+    body{
+        font-size: 1em;
+    }
+
+    #nav-bar{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0.5em;
+    }
+
+    #logo{
+        width: 30%;
+       
+     }
+    #try{
+        background-color: white;
+        border: solid 2px hsl(322, 100%, 66%);
+        padding: 1%;
+    }
+
+
+    h1{
+        font-size: 1em;
+    }
+
+    h2{font-size: 1em;
+    }
+
+    .stat{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+.split{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+#huddle{
+    width: 80%;
+   text-align: center;
+   font-weight: bold;
+  }
+
+  .flow{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #bottom{
+   
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+}
